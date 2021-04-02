@@ -20,14 +20,22 @@ public class Edificio {
 		Vivienda vivienda1 = this.buscarVivienda(pisoOrigen, letraDeptoOrigen);
 		Vivienda vivienda2 = this.buscarVivienda(pisoDestino, letraDestino);
 
-		ArrayList<Mueble> mueblesTemporales = vivienda1.getMuebles();
-		ArrayList<Persona> personasTemporales = vivienda1.getPersonas();
+		//istancio nuevas listas
+		
+		ArrayList<Mueble> mueblesTemporales = new ArrayList<>();
+		ArrayList<Persona> personasTemporales = new ArrayList<>();
+
+		
+		mueblesTemporales = vivienda1.getMuebles();
+		personasTemporales = vivienda1.getPersonas();
+		
+		
 		
 		vivienda2.setMuebles(mueblesTemporales);
 		vivienda2.setPersonas(personasTemporales);
 		
-	//	vivienda1.getMuebles().clear();
-	//	vivienda1.getPersonas().clear();
+		vivienda1.getMuebles().clear();
+		vivienda1.getPersonas().clear();
 		
 	
 		
@@ -37,16 +45,26 @@ public class Edificio {
 		int i = 0;
 		Vivienda vivienda = null;
 
-		Vivienda viviendaTest = viviendas.get(i);
+	//	Vivienda viviendaTest = viviendas.get(i);
 		while (i < viviendas.size() && vivienda == null) {
 
-			if (viviendaTest.getDireccion().getPiso() == piso  && viviendaTest.getDireccion().getDepartamento().equals(letra) ) {
-				vivienda = viviendaTest;
+			if (viviendas.get(i).getDireccion().getPiso() == piso  && viviendas.get(i).getDireccion().getDepartamento().equals(letra) ) {
+				vivienda = viviendas.get(i);
 
 			}
+				i++;
+			
 		}
 
 		return vivienda;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

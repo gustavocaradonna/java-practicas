@@ -11,7 +11,7 @@ public class Test {
 		//creo vivienda
 		Vivienda vivienda1 = new Vivienda("Montañeses", 1234, 4, "C");
 		
-		Vivienda vivienda2 = new Vivienda("Montañeses", 1234, 2 , "B");
+		Vivienda vivienda2 = new Vivienda("Montañeses", 1234, 2, "B");
 		
 		//la agrego al edificio
 		edificio1.agregarVivienda(vivienda1);
@@ -38,7 +38,6 @@ public class Test {
 		
 		System.out.println("VIVIENDA 1 " + vivienda1);
 		System.out.println("VIVIENDA 2 " + vivienda2);
-		
 		
 		
 	}
