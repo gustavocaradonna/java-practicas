@@ -33,10 +33,11 @@ public class Persona {
 
 		return respuesta;
 	}
-	
-	public boolean agregarNumeroTelefonico(int caracteristica, int numeroDeAbonado, int codigoPais, TipoDeLineaEnum tipoDeLinea) {
+
+	public boolean agregarNumeroTelefonico(int caracteristica, int numeroDeAbonado, int codigoPais,
+			TipoDeLineaEnum tipoDeLinea) {
 		boolean respuesta = false;
-		NumeroTelefonico numero = new NumeroTelefonico(caracteristica, numeroDeAbonado,  codigoPais,  tipoDeLinea);
+		NumeroTelefonico numero = new NumeroTelefonico(caracteristica, numeroDeAbonado, codigoPais, tipoDeLinea);
 
 		if (numero != null) {
 			respuesta = true;
@@ -45,35 +46,15 @@ public class Persona {
 
 		return respuesta;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	public void mostrarTodo() {
-		System.out.println(apellido + ", " + nombre);
 
-		this.mostrarTelefonos();
-		this.mostrarEmails();
-
-	}
-
-	private void mostrarTelefonos() {
-		for (NumeroTelefonico telefono : telefonos) {
-			System.out.println(telefono);
-		}
-	}
-
-	private void mostrarEmails() {
+		System.out.println("Apellido=" + apellido + ", nombre=" + nombre + ", telefonos=" + telefonos);
 
 		for (Email email : correos) {
 			System.out.println(email.getValor());
 		}
+
 	}
 
 }

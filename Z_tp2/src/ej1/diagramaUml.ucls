@@ -12,7 +12,7 @@
   </enumeration>  
   <class id="2" language="java" name="ej1.Persona" project="Z_tp2" file="/Z_tp2/src/ej1/Persona.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="196" width="158" x="295" y="91"/>    
+    <position height="-1" width="-1" x="373" y="157"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="ej1.Email" project="Z_tp2" file="/Z_tp2/src/ej1/Email.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="142" width="119" x="215" y="327"/>    
+    <position height="-1" width="-1" x="204" y="435"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="ej1.NumeroTelefonico" project="Z_tp2" file="/Z_tp2/src/ej1/NumeroTelefonico.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="322" width="295" x="374" y="327"/>    
+    <position height="-1" width="-1" x="525" y="487"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

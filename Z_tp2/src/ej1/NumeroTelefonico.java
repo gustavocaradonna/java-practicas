@@ -63,8 +63,15 @@ public class NumeroTelefonico {
 
 	public void setTipoDeLinea(TipoDeLineaEnum tipoDeLinea) {
 		this.tipoDeLinea = tipoDeLinea;
+	}
+
+	@Override
+	public String toString() {
+		return  tipoDeLinea +" "+ caracteristica + "-" + numeroDeAbonado
+				+ "-" + codigoPais  ;
 	} 
 	
+
 	
 	
 }
