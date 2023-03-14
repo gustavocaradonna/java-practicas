@@ -7,14 +7,14 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		/*1. Realizá un programa donde se cree una variable entera llamada num1, que inicialmente
-valdrá 0. Luego incrementá su valor en 2 y mostralo por pantalla. Después mostrá el
-resultado de multiplicarlo por sí mismo.*/
+		/*1. Realizï¿½ un programa donde se cree una variable entera llamada num1, que inicialmente
+valdrï¿½ 0. Luego incrementï¿½ su valor en 2 y mostralo por pantalla. Despuï¿½s mostrï¿½ el
+resultado de multiplicarlo por sï¿½ mismo.*/
 		
 		int num1 = 0;
 		num1 = 2;
 		System.out.println(num1);
-		
+		System.out.println("multiplicado por si mismo:" + num1*num1);
 		
 		
 	}

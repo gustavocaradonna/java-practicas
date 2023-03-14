@@ -6,13 +6,20 @@ public class Ejercicio4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/*4. Realizá un programa que pida al usuario ingresar dos números enteros num1 y num2.
-Luego, mostrar el resultado de la suma entre ambos, utilizando el siguiente formato: “La
-suma entre “ + num1 + “ y “ + num2 + “ da como resultado “ + num1 + num2*/
+/*4. Realizï¿½ un programa que pida al usuario ingresar dos nï¿½meros enteros num1 y num2.
+Luego, mostrar el resultado de la suma entre ambos, utilizando el siguiente formato: ï¿½La
+suma entre ï¿½ + num1 + ï¿½ y ï¿½ + num2 + ï¿½ da como resultado ï¿½ + num1 + num2*/
+		
+		
+		
 		
 		int num1;
 		int num2;
+		int resultado;
+
 		Scanner input;
+		Scanner input2;
+
 		input = new Scanner(System.in);
 		
 		System.out.print("Ingrese un numero: ");
@@ -20,8 +27,12 @@ suma entre “ + num1 + “ y “ + num2 + “ da como resultado “ + num1 + num2*/
 		System.out.print("Ingrese otro numero: ");
 		num2 = input.nextInt();
 
+		resultado = num1 + num2; 
 		
-		System.out.println("La suma entre " + num1 + " y " + num2 + " da como resultado " + (num1+num2));
+		System.out.println("La suma entre " + num1 + " y " + num2 + " da como resultado " + (resultado));
+		
+
+		
 		
 		input.close();		
 
